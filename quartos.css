@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #242323;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+}
+
+header ul, header a {
+    display: flex;
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    color: #333;
+}
+
+header h1, header ul {
+    font-weight: normal;
+}
+
+header span {
+    color: #406de1;
+}
+
+.banner{
+    background-image: url(./img/img-fundo.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.quartos {
+    text-align: center;
+    margin: 50px auto;
+    width: 60%;
+}
+
+.quartos h2{
+    font-size: 36px;
+    color: #333;
+}
+
+.quartos p{
+    padding-top: 30px;
+}
+
+.quartos div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.quartos img{
+    width: 30%;
+    margin: 8px;
+}
+
+.lista-informações{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-informações ul{
+    display: flex;
+    gap: 100px;
+    position: relative;
+}
+
+.lista-informações .column{
+    flex-direction: column;
+    text-align: justify;
+    position: relative;
+    bottom: 50px;
+}
+
+.lista-informações .column-2{
+    flex-direction: column;
+    text-align: justify;
+    position: relative;
+    bottom: 50px;
+
+}
+
+
+footer {
+    background-color: #49997c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 27px;
+    margin: 30px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+
+footer .p, footer h2 {
+    color: #f4f4f4;
+}
+
+footer div, footer img {
+    margin: 15px;
+}
+
+.contatos {
+    display: flex;
+    border-bottom: 1px solid #0e583d;
+}
+
+.feito-por p {
+    color: #f4f4f4;
+    font-weight: bold;
+}
